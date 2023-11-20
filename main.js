@@ -137,6 +137,44 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+/*_________________________________________project photo chnaging_________________________________________*/
+
+const images1 = ['./img/pr1/1.png','./img/pr1/2.png', './img/pr1/3.png','./img/pr1/4.png','./img/pr1/5.png' ]; 
+    let currentIndex1 = 0;
+
+    function changeImage1() {
+        currentIndex1 = (currentIndex1 + 1) % images1.length;
+        const imagePath = images1[currentIndex1];
+        document.querySelector('.img-cover-pr1').src = imagePath;
+    }
+
+    setInterval(changeImage1, 5000); 
+
+const images2 = ['./img/pr2/1.png','./img/pr2/2.png', './img/pr2/3.png','./img/pr2/4.png' ]; 
+    let currentIndex2 = 0;
+
+    function changeImage2() {
+        currentIndex2 = (currentIndex2 + 1) % images2.length;
+        const imagePath = images2[currentIndex2];
+        document.querySelector('.img-cover-pr2').src = imagePath;
+    }
+
+    setInterval(changeImage2, 5000); 
+
+
+
+const images3 = ['./img/pr3/1.png','./img/pr3/2.png', './img/pr3/3.png','./img/pr3/4.png' ]; 
+    let currentIndex3 = 0;
+
+    function changeImage3() {
+        currentIndex3 = (currentIndex3 + 1) % images3.length;
+        const imagePath = images3[currentIndex3];
+        document.querySelector('.img-cover-pr3').src = imagePath;
+    }
+
+    setInterval(changeImage3, 5000); 
+
+    
 /*_________________________________________delays and intervals_________________________________________*/
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 

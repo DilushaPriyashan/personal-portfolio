@@ -906,7 +906,7 @@ img {
 
 @media screen and (max-width: 500px) {
   .bd-grid {
-    border:2px solid #010133;
+    border:0px solid #010133;
   }
   .home__data {
     padding-left: 5px;

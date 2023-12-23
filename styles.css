@@ -1064,11 +1064,6 @@ img {
     letter-spacing: 1px;
     
   }
-  .work__img:hover {
-    transform: scale(1.0) !important;
-    background-color: rgb(223, 221, 221);
-    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.4);
-  }
 
   .skills__container {
     grid-template-columns: .7fr;
